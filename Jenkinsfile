@@ -1,10 +1,12 @@
-pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-               bat "D://Personal/DevOps/launchchrome.bat"
-            }
-        }
-    }
+import org.jenkinsci.plugins.pipeline.modeldefinition.utils
+
+def ci_stages()
+{
+
+
+
+
+
+
+
 }
